@@ -1,0 +1,9 @@
+Building Bitcoincap
+
+See doc/readme-qt.rst for instructions on building Bitcoincap-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Bitcoincap.
+
+See doc/build-*.txt for instructions on building bitcoincapd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Bitcoincap.

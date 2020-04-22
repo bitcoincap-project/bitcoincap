@@ -1,0 +1,34 @@
+src/*.exe
+src/bitcoincap
+src/bitcoincapd
+src/test_bitcoincap
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.bitcoincap
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+bitcoincap-qt
+Bitcoincap-Qt.app
+
+# Unit-tests
+Makefile.test
+bitcoincap-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
